@@ -12,7 +12,7 @@ const token=user.getJwttoken();
     res.status(201).json({
         success:true,
         user,
-        token
+        token1
         
     })
 })
